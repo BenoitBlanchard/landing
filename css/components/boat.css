@@ -1,0 +1,83 @@
+.footer{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  margin-top: 15px;
+  background-image: url(../../images/sky3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+.ocean
+{
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.water{
+  /* width: 100%; */
+  height: 100%;
+  position: absolute;
+  right: 0;
+  animation: water 10s linear infinite;
+}
+
+@keyframes water{
+  0%{
+      transform: translateX(0);
+  }
+
+  100%{
+      transform: translateX(1000px) ;
+  }
+}
+
+.boat{
+  width: 200px;
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: boat 2s linear infinite;
+}
+
+.boat img
+{
+  width: 100%;
+  -webkit-box-reflect: below 0 linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.5));
+}
+
+.logo img {
+  position: relative;
+  bottom: -35px;
+  left: -75PX;
+  width: 25%;
+
+}
+
+
+@keyframes boat{
+  0%{
+      transform: rotate(0deg)translateY(0);
+
+  }
+  25%{
+      transform: rotate(-1deg)translateY(-3px);
+  }
+  50%{
+      transform: rotate(0deg)translateY(-5px);
+  }
+  75%{
+      transform: rotate(1deg)translateY(-3px);
+  }
+  100%{
+      transform: rotate(1deg)translateY(0);
+
+  }
+}

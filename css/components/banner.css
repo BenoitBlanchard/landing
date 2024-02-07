@@ -1,0 +1,20 @@
+.banner {
+  background-size: cover;
+  padding: 200px 0;
+  position: relative;
+}
+
+.banner h1 {
+  color: black;
+  background-color: rgba(213, 195, 174, 0.3);
+  border-radius: 10px;
+  opacity: .6 ;
+}
+
+.banner p {
+  color: black;
+  opacity: .9;
+  background-color: rgba(213, 195, 174, 0.3);
+  border-radius: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.btn-primary {
+  display: inline;
+  background-color: #1b3d2e;
+  background-image: linear-gradient(144deg,#d62828, #f77f00 50%,#fcbf49);
+  padding: 16px 36px;
+  border-radius: 50px;
+  opacity: 0.9;
+  color: white;
+  font-weight: bold;
+  font-family: Phantomsans, sans-serif;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+}
+
+.btn-primary:active,
+.btn-primary:hover {
+  outline: 0;
+  border: 1px solid white ;
+  background-image: linear-gradient(144deg,#fcbf49, #f77f00 50%,#d62828);
+}
+
+
+.btn-secondary {
+  border: 1px solid #d62828;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #fcbf49;
+}
